@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, animatedScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 const header = () => {
   return (
     <div className="header">

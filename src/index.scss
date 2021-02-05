@@ -93,15 +93,10 @@ body {
   }
  
 }
-#stack {
+@mixin stack {
   display: flex;
-  width: 60%;
-  margin-left: 20%;
-  justify-content: space-between;
   text-align: center;
   button {
-    color: #fff;
-    background-color: #2c698d;
     width: auto;
     outline:none;
     border: none;
@@ -110,6 +105,20 @@ body {
     font-size: 17px;
   }
   margin-bottom: 20px;
+}
+#stack {
+  justify-content: space-around;
+  width: 60%;
+  display: flex;
+  @include stack;
+  margin-left: 20%;
+  color: #2c698d;
+}
+.stack2 {
+  display: flex;
+  justify-content: space-around;
+  @include stack;
+  color: #000;
 }
 // portfolio
 .portfolio {

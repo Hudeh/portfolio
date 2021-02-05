@@ -13,9 +13,10 @@ export default function portfolio() {
             <h4>Mountains</h4>
             <p>Lorem ipsum dolor..</p>
           </div>
-          <div id="stack">
+          <div className="stack2">
             <button>#Python</button>
             <button>#Django</button>
+            <button>#Docker</button>
         </div>
         </div>
         <div className="column nature">
@@ -25,7 +26,7 @@ export default function portfolio() {
             <p>Lorem ipsum dolor..</p>
 
           </div>
-          <div id="stack">
+          <div className="stack2">
             <button>#React</button>
             <button>#Python</button>
             <button>#Django</button>
@@ -36,7 +37,7 @@ export default function portfolio() {
             <img src={sitme} alt="Nature" width="100%" />
             <h4>Forest</h4>
             <p>Lorem ipsum dolor..</p>
-            <div id="stack">
+            <div className="stack2">
             <button>#Html</button>
             <button>#CSS</button>
             <button>#JavaScrit</button>
@@ -50,8 +51,9 @@ export default function portfolio() {
             <h4>Forest</h4>
             <p>Lorem ipsum dolor..</p>
           </div>
-          <div id="stack">
+          <div className="stack2">
             <button>#React</button>
+            <button>#Redux</button>
             <button>#sass</button>
         </div>
         </div>
