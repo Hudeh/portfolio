@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong");
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  overflow-x: hidden;
+}
+// * {
+//   box-sizing: border-box;
+// }
+.header {
+  background-color: #272643;
+  color: #fff;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 0 5px 0 38px;
+  .header-inner{
+    align-items: center;
+    width: 1400px;
+    display: flex;
+    font-family: "Sofia";
+    p{
+      font-size: 30px;
+    }
+    .link-right{
+      margin-left: 900px;
+      justify-content: space-between;
+      width: 250px;
+      display: flex;
+      font-size: 20px;
+    }
+  }
+}
+
+// hi
+.main {
+  width: 1200px;
+  height: 600px;
+  margin-left: 150px;
+  margin-right: 80px;
+  background-color: #fff;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  margin: auto;
+  img {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    /* margin-left: 500px; */
+  }
+  .greet {
+    display: flex;
+    margin-left: 180px;
+    .hi {
+      font-size: 60px;
+      font-family: "Sofia";
+    }
+    .name {
+      color: #2c698d;
+      border-bottom: 10px solid #272643;
+      margin-left: 15px;
+      font-size: 60px;
+      font-family: "Sofia";
+    }
+  }
+  .typewrite {
+    color: rgb(61, 58, 58);
+    text-decoration: none;
+  }
+}
+// about me
+.about {
+  width: 100%;
+  height: 480px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: #2c698d 0.8px solid;
+  background-color: #272643;
+  color: #fff;
+  .about-title {
+    font-size: 40px;
+    margin-left: 20%;
+    border-bottom: 5px solid #2c698d;
+    width: 60%;
+  }
+  .describ {
+    width: 100%;
+  }
+ 
+}
+#stack {
+  display: flex;
+  width: 60%;
+  margin-left: 20%;
+  justify-content: space-between;
+  text-align: center;
+  button {
+    color: #fff;
+    background-color: #2c698d;
+    width: auto;
+    outline:none;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+  }
+  margin-bottom: 20px;
+}
+// portfolio
+.portfolio {
+  max-width: 1400px;
+  margin: auto;
+  margin-bottom: 80px;
+  text-align: center;
+  h2 {
+    font-size: 35px;
+    font-weight: 500;
+    border-bottom: #2c698d solid 5px;
+    width: 20%;
+  }
+  .row {
+    margin: 8px;
+    .column {
+      padding: 8px;
+      float: left;
+      width: 20%;
+      margin-left: 40px;
+      border: #2c698d 0.8px solid;
+      border-radius: 5%;
+      &:hover {
+        box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.4);
+      }
+    }
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+}
+.content {
+  background-color: white;
+  padding: 10px;
+}
+// footer
+.footer {
+  width: 100%;
+  background-color: #272643;
+  color: #fff;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+  
+  .row-group {
+    width: 13%;
+    display: flex;
+    margin-left: 620px;
+    text-align: center;
+    padding: 2px 10px 10px 10px;
+    justify-content: space-between;
+    .social {
+      border-radius: 50%;
+      border: 1px rgb(190, 187, 187) solid;
+      width: 80px;
+      height: 40px;
+      color: #000000;
+      text-align: center;
+      align-items: center;
+      padding: 8px 5px 5px 5px;
+      &:hover {
+        background-color: #fff;
+      }
+      .icon {
+        color: #fff;
+        font-size: 40px !important;
+        &:hover {
+          color: #000;
+        }
+      }
+    
+  }
+  }
+}
