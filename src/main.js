@@ -73,7 +73,7 @@ const main = () => {
           href="#/"
           className="typewrite"
           data-period="2000"
-          data-type='[ "Am a motivated full stack Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'
+          data-type='["Am a motivated full stack Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'
         >
           <span class="wrap"></span>
         </a>
